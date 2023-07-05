@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+exec /usr/local/bin/zookeeper-operator -test.coverprofile=/tmp/profile/zk-operator-`date +%s%N`.out $@

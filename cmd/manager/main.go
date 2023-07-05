@@ -53,6 +53,10 @@ func printVersion() {
 }
 
 func main() {
+	run()
+}
+
+func run() {
 	flag.Parse()
 
 	// The logger instantiated here can be changed to any logger
